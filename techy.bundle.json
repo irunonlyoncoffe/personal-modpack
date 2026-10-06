@@ -1,0 +1,14 @@
+{
+  "url": [
+    {
+      "url": "https://raw.githubusercontent.com/irunonlyoncoffe/techy-modpack-files/main/hbm_material_output_fixes.zs",
+      "folder": "scripts",
+      "fileName": "hbm_material_output_fixes.zs",
+      "metadata": {
+        "hash": {
+          "SHA-256": "d9622864e9a3298850c4b316a10716b55b2f694775346fc8fe4cafbded66ded2"
+        }
+      }
+    }
+  ]
+}
