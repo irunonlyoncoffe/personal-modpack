@@ -19,6 +19,28 @@
           "SHA-256": "c456ab58553b70c76b8b19bdafdcf0c8e35fc3e9b6f79c918fc72c31995d38be"
         }
       }
+    },
+    {
+      "url": "https://github.com/CleanroomMC/HadEnoughItems/releases/download/4.35.1/HadEnoughItems_1.12.2-4.35.1.jar",
+      "folder": "mods",
+      "fileName": "HadEnoughItems_1.12.2-4.35.1.jar",
+      "metadata": {
+        "hash": {
+          "SHA-256": "8777b115592519ea0b077032988301853b39794edbb67f54b54cbef6715b283b"
+        }
+      }
+    }
+  ],
+  "modify": [
+    {
+      "folder": "mods",
+      "fileName": "Flan's Mod-1.12.2-5.10.0.jar",
+      "delete": true
+    },
+    {
+      "folder": "mods",
+      "fileName": "HadEnoughItems_1.12.2-4.35.0.jar",
+      "delete": true
     }
   ]
 }
