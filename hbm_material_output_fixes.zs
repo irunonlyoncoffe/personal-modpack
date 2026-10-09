@@ -15,7 +15,6 @@ val enderIoCoalPowder = <enderio:item_material:23>;
 val enderIoLapisPowder = <enderio:item_material:32>;
 val ae2QuartzDust = <appliedenergistics2:material:3>;
 val rusticGoldDust = <rustic:dust_gold>;
-val rusticIronDust = <rustic:dust_iron>;
 
 val hbmLapisPowder = <hbm:powder_lapis>;
 
@@ -27,20 +26,38 @@ val dustQuartz = <ore:dustQuartz>;
 
 // HBM's shredder chooses the first registered dust for oreGold/oreIron/etc.
 // Remove and re-add the known dusts in a deterministic order with HBM first.
-dustGold.remove(hbmGoldPowder, ae2GoldDust, enderIoGoldDust, rusticGoldDust);
-dustGold.add(hbmGoldPowder, ae2GoldDust, enderIoGoldDust, rusticGoldDust);
+// These calls deliberately take one item each: this pack's CraftTweaker/ZenScript
+// combination can crash when an ore-dictionary method receives several items.
+dustGold.remove(hbmGoldPowder);
+dustGold.remove(ae2GoldDust);
+dustGold.remove(enderIoGoldDust);
+dustGold.remove(rusticGoldDust);
+dustGold.add(hbmGoldPowder);
+dustGold.add(ae2GoldDust);
+dustGold.add(enderIoGoldDust);
+dustGold.add(rusticGoldDust);
 
-dustIron.remove(hbmIronPowder, ae2IronDust, enderIoIronPowder, rusticIronDust);
-dustIron.add(hbmIronPowder, ae2IronDust, enderIoIronPowder, rusticIronDust);
+dustIron.remove(hbmIronPowder);
+dustIron.remove(ae2IronDust);
+dustIron.remove(enderIoIronPowder);
+dustIron.add(hbmIronPowder);
+dustIron.add(ae2IronDust);
+dustIron.add(enderIoIronPowder);
 
-dustLapis.remove(hbmLapisPowder, enderIoLapisPowder);
-dustLapis.add(hbmLapisPowder, enderIoLapisPowder);
+dustLapis.remove(hbmLapisPowder);
+dustLapis.remove(enderIoLapisPowder);
+dustLapis.add(hbmLapisPowder);
+dustLapis.add(enderIoLapisPowder);
 
-dustCoal.remove(hbmCoalPowder, enderIoCoalPowder);
-dustCoal.add(hbmCoalPowder, enderIoCoalPowder);
+dustCoal.remove(hbmCoalPowder);
+dustCoal.remove(enderIoCoalPowder);
+dustCoal.add(hbmCoalPowder);
+dustCoal.add(enderIoCoalPowder);
 
-dustQuartz.remove(hbmQuartzPowder, ae2QuartzDust);
-dustQuartz.add(hbmQuartzPowder, ae2QuartzDust);
+dustQuartz.remove(hbmQuartzPowder);
+dustQuartz.remove(ae2QuartzDust);
+dustQuartz.add(hbmQuartzPowder);
+dustQuartz.add(ae2QuartzDust);
 
 val goldFragment = <hbm:bedrock_ore_fragment:7900>;
 val ironFragment = <hbm:bedrock_ore_fragment:2600>;
@@ -78,11 +95,6 @@ recipes.removeShaped(ae2IronDust, [
     [ironFragment, ironFragment, ironFragment],
     [ironFragment, ironFragment, ironFragment]
 ]);
-recipes.removeShaped(rusticIronDust, [
-    [ironFragment, ironFragment, ironFragment],
-    [ironFragment, ironFragment, ironFragment],
-    [ironFragment, ironFragment, ironFragment]
-]);
 recipes.addShaped("hbm_iron_fragments_to_hbm_powder", hbmIronPowder, [
     [ironFragment, ironFragment, ironFragment],
     [ironFragment, ironFragment, ironFragment],
@@ -110,3 +122,5 @@ recipes.addShaped("hbm_quartz_fragments_to_hbm_powder", hbmQuartzPowder, [
     [quartzFragment, quartzFragment, quartzFragment],
     [quartzFragment, quartzFragment, quartzFragment]
 ]);
+
+print("Techy HBM output fixes loaded successfully");
