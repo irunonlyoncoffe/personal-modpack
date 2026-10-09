@@ -2,7 +2,8 @@
 
 Files in this repository are downloaded by File Director for Techy Modpack.
 
-- `hbm_material_output_fixes.zs` contains the CraftTweaker material-output fixes.
+- `hbm_material_output_fixes.zs` makes 3x3 gold, iron, coal, and quartz bedrock-fragment recipes produce HBM powders.
+- `hbmShredder.json` pins HBM's shredder outputs for gold, iron, lapis, coal, and quartz to HBM powders. Ender IO machine recipes are not changed.
 - `rustic.cfg` disables Rustic's Extra Armor HUD and Armor Toughness HUD so HBM owns the armor/power display.
 - `techy.bundle.json` tells File Director where managed files belong and pins their SHA-256 checksums.
 - Had Enough Items 4.35.1 is downloaded from the official CleanroomMC GitHub release.

@@ -6,7 +6,17 @@
       "fileName": "hbm_material_output_fixes.zs",
       "metadata": {
         "hash": {
-          "SHA-256": "d9622864e9a3298850c4b316a10716b55b2f694775346fc8fe4cafbded66ded2"
+          "SHA-256": "77f4bc9ce76ec419cff225baf0b7da637e6efd7e98bfe0ae91380d86b784da48"
+        }
+      }
+    },
+    {
+      "url": "https://raw.githubusercontent.com/irunonlyoncoffe/techy-modpack-files/main/hbmShredder.json",
+      "folder": "config/hbmRecipes",
+      "fileName": "hbmShredder.json",
+      "metadata": {
+        "hash": {
+          "SHA-256": "65b8610c27427401879b1b2904e069f05d4e345b6fbcad35afac320867dd777d"
         }
       }
     },
