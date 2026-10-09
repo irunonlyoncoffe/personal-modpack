@@ -9,6 +9,16 @@
           "SHA-256": "d9622864e9a3298850c4b316a10716b55b2f694775346fc8fe4cafbded66ded2"
         }
       }
+    },
+    {
+      "url": "https://raw.githubusercontent.com/irunonlyoncoffe/techy-modpack-files/main/rustic.cfg",
+      "folder": "config",
+      "fileName": "rustic.cfg",
+      "metadata": {
+        "hash": {
+          "SHA-256": "c456ab58553b70c76b8b19bdafdcf0c8e35fc3e9b6f79c918fc72c31995d38be"
+        }
+      }
     }
   ]
 }
