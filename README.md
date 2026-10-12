@@ -6,6 +6,7 @@ Files in this repository are downloaded by File Director for Techy Modpack.
 - `hbmShredder.json` and the HBM-first ore-dictionary order make HBM's shredder output HBM gold, iron, lapis, coal, and quartz powders for every matching ore. Ender IO's own machine recipes remain unchanged.
 - `rustic.cfg` disables Rustic's Extra Armor HUD and Armor Toughness HUD so HBM owns the armor/power display.
 - `techy.bundle.json` tells File Director where managed files belong and pins their SHA-256 checksums.
+- `ntm-ae2-compat-1.0.2.jar` lets NTM-CE machines take AE2 processing patterns and choose the recipe fluid themselves.
 - Had Enough Items 4.35.1 is downloaded from the official CleanroomMC GitHub release.
 - Flan's Mod 5.10.0 and the obsolete Had Enough Items 4.35.0 jar are deleted from `mods`.
 

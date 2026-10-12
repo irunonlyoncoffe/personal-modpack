@@ -39,6 +39,16 @@
           "SHA-256": "8777b115592519ea0b077032988301853b39794edbb67f54b54cbef6715b283b"
         }
       }
+    },
+    {
+      "url": "https://raw.githubusercontent.com/irunonlyoncoffe/techy-modpack-files/main/ntm-ae2-compat-1.0.2.jar",
+      "folder": "mods",
+      "fileName": "ntm-ae2-compat-1.0.2.jar",
+      "metadata": {
+        "hash": {
+          "SHA-256": "30cc7b145ef4f805841e08af874190a1318204e59dae7ebeca8987aa5de121f7"
+        }
+      }
     }
   ],
   "modify": [
