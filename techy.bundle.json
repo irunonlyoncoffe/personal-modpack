@@ -49,6 +49,36 @@
           "SHA-256": "40f7091594ec44506e0b371a86f44a1f94f89fce1bf80386ef79ec9916532dc1"
         }
       }
+    },
+    {
+      "url": "https://raw.githubusercontent.com/irunonlyoncoffe/techy-modpack-files/main/RedstoneFlux-1.12-2.1.1.1-universal.jar",
+      "folder": "mods",
+      "fileName": "RedstoneFlux-1.12-2.1.1.1-universal.jar",
+      "metadata": {
+        "hash": {
+          "SHA-256": "6ff7f96d076bfaad83fb6ba92ec457b8a76391439663b0cc32a9ec5398345280"
+        }
+      }
+    },
+    {
+      "url": "https://raw.githubusercontent.com/irunonlyoncoffe/techy-modpack-files/main/BrandonsCore-1.12.2-2.4.20.162-universal.jar",
+      "folder": "mods",
+      "fileName": "BrandonsCore-1.12.2-2.4.20.162-universal.jar",
+      "metadata": {
+        "hash": {
+          "SHA-256": "7f26e2cad131d3cb79296b0309dbde4f361b34c7f602d9575aecff893bb04d76"
+        }
+      }
+    },
+    {
+      "url": "https://raw.githubusercontent.com/irunonlyoncoffe/techy-modpack-files/main/Draconic-Evolution-1.12.2-2.3.28.354-universal.jar",
+      "folder": "mods",
+      "fileName": "Draconic-Evolution-1.12.2-2.3.28.354-universal.jar",
+      "metadata": {
+        "hash": {
+          "SHA-256": "1eecdefa00056efac98ff56e25f7ed840b70e2d809c628e38c9c5b5518ff14ff"
+        }
+      }
     }
   ],
   "modify": [
