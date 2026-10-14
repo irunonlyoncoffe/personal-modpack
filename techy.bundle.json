@@ -41,12 +41,22 @@
       }
     },
     {
-      "url": "https://raw.githubusercontent.com/irunonlyoncoffe/techy-modpack-files/main/ntm-ae2-compat-1.1.3.jar",
+      "url": "https://raw.githubusercontent.com/irunonlyoncoffe/techy-modpack-files/main/ntm-ae2-compat-1.1.4.jar",
       "folder": "mods",
-      "fileName": "ntm-ae2-compat-1.1.3.jar",
+      "fileName": "ntm-ae2-compat-1.1.4.jar",
       "metadata": {
         "hash": {
-          "SHA-256": "40f7091594ec44506e0b371a86f44a1f94f89fce1bf80386ef79ec9916532dc1"
+          "SHA-256": "19ff0db139b2524ed4cdbd6e8b752a04510eedcd520abaab10abe66894079594"
+        }
+      }
+    },
+    {
+      "url": "https://raw.githubusercontent.com/irunonlyoncoffe/techy-modpack-files/main/hbm-de-nv-compat-1.0.1.jar",
+      "folder": "mods",
+      "fileName": "hbm-de-nv-compat-1.0.1.jar",
+      "metadata": {
+        "hash": {
+          "SHA-256": "b78ec40d546710dced5fca91eec88f06aede4c8835edba3893a65f50fa08dfeb"
         }
       }
     },
@@ -95,6 +105,11 @@
     {
       "folder": "mods",
       "fileName": "ntm-ae2-compat-1.0.2.jar",
+      "delete": true
+    },
+    {
+      "folder": "mods",
+      "fileName": "ntm-ae2-compat-1.1.3.jar",
       "delete": true
     }
   ]
