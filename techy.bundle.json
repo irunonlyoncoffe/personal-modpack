@@ -31,6 +31,16 @@
       }
     },
     {
+      "url": "https://raw.githubusercontent.com/irunonlyoncoffe/techy-modpack-files/main/gnetum.json",
+      "folder": "config",
+      "fileName": "gnetum.json",
+      "metadata": {
+        "hash": {
+          "SHA-256": "42f21d889d3fa9e938bfa645f197deddcb065f51b6b0b03d532c309185ac4cb6"
+        }
+      }
+    },
+    {
       "url": "https://github.com/CleanroomMC/HadEnoughItems/releases/download/4.36.1/HadEnoughItems_1.12.2-4.36.1.jar",
       "folder": "mods",
       "fileName": "HadEnoughItems_1.12.2-4.36.1.jar",
