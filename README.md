@@ -25,19 +25,27 @@ Existing installations fetch the current bundle at startup. File Director downlo
 
 If the log shows `Re-launching to load the newer versions` then
 `AppClassLoader cannot be cast to URLClassLoader`, Essential is crashing
-**before** Mod Director can install the patched loader.
+**before** Mod Director can install fixes.
 
-In Modrinth → instance → Settings → Java, add this extra argument:
+### Tell affected players (works immediately)
+
+1. Modrinth → their instance → **Settings → Java** → extra arguments, add:
 
 ```
 -Dessential.loader.relaunch=false
 ```
 
-Also ensure `config/mod-director/techy.remote.json` points at:
+2. Launch once. Mod Director can then finish updating files.
 
-```
-https://raw.githubusercontent.com/irunonlyoncoffe/techy-modpack-files/refs/heads/main/techy.bundle.json
-```
+Optional: in `config/relauncher.json`, ensure `args` contains
+`-Dessential.loader.relaunch=false` (your working Techy profile already does).
 
-(not the `/main/` URL — GitHub's raw CDN for `/main/` can lag). The Modrinth pack
-itself should ship that JVM arg and the patched Essential jar so first launch works.
+### Pack / File Director
+
+- `!techy-essential-norelaunch-1.0.0.jar` sets that property before Essential loads.
+  **Ship this jar inside the Modrinth pack `mods/` folder** — Mod Director cannot
+  install it for players who already crash on Essential.
+- `relauncher.json` in this repo is a distribution template with the same JVM flag
+  and `autoSetup: true` (no machine-specific `javaPath`). Put it in pack
+  `config/relauncher.json` for new installs.
+- `techy.remote.json` must use `.../refs/heads/main/techy.bundle.json` (not `/main/`).

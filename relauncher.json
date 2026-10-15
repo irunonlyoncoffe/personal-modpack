@@ -1,0 +1,12 @@
+{
+  "selectedVersion": "0.7.5-alpha",
+  "targetJavaVersion": 25,
+  "targetVendor": "Azul Zulu",
+  "args": "-XX:+UseCompactObjectHeaders -Dessential.loader.relaunch=false ",
+  "autoSetup": true,
+  "enableRelauncher": true,
+  "fetchUpdates": true,
+  "clearCleanroomFolder": false,
+  "clearJavaProvisionFolder": false,
+  "darkMode": false
+}

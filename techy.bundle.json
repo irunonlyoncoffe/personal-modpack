@@ -71,6 +71,16 @@
       }
     },
     {
+      "url": "https://raw.githubusercontent.com/irunonlyoncoffe/techy-modpack-files/refs/heads/main/%21techy-essential-norelaunch-1.0.0.jar",
+      "folder": "mods",
+      "fileName": "!techy-essential-norelaunch-1.0.0.jar",
+      "metadata": {
+        "hash": {
+          "SHA-256": "85b729d08cde8e40bbc9c2130ee7157c2c2c7d65585a3f5777f692f595cba795"
+        }
+      }
+    },
+    {
       "url": "https://github.com/CleanroomMC/HadEnoughItems/releases/download/4.36.1/HadEnoughItems_1.12.2-4.36.1.jar",
       "folder": "mods",
       "fileName": "HadEnoughItems_1.12.2-4.36.1.jar",
@@ -84,7 +94,7 @@
       }
     },
     {
-      "url": "https://raw.githubusercontent.com/irunonlyoncoffe/techy-modpack-files/main/%21cleanroom-relauncher-1.2.1.jar",
+      "url": "https://raw.githubusercontent.com/irunonlyoncoffe/techy-modpack-files/refs/heads/main/%21cleanroom-relauncher-1.2.1.jar",
       "folder": "mods",
       "fileName": "!cleanroom-relauncher-1.2.1.jar",
       "installationPolicy": {
