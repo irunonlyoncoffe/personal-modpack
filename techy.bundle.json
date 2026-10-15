@@ -31,12 +31,74 @@
       }
     },
     {
-      "url": "https://github.com/CleanroomMC/HadEnoughItems/releases/download/4.35.1/HadEnoughItems_1.12.2-4.35.1.jar",
+      "url": "https://github.com/CleanroomMC/HadEnoughItems/releases/download/4.36.1/HadEnoughItems_1.12.2-4.36.1.jar",
       "folder": "mods",
-      "fileName": "HadEnoughItems_1.12.2-4.35.1.jar",
+      "fileName": "HadEnoughItems_1.12.2-4.36.1.jar",
+      "installationPolicy": {
+        "supersede": "HadEnoughItems_1.12.2-4.35.1.jar"
+      },
       "metadata": {
         "hash": {
-          "SHA-256": "8777b115592519ea0b077032988301853b39794edbb67f54b54cbef6715b283b"
+          "SHA-256": "c9b812ac3396f3628ca314f10dd775e0f0098cdbaec56be13b4a4f57b70c4443"
+        }
+      }
+    },
+    {
+      "url": "https://cdn.modrinth.com/data/HYV8rIOO/versions/WeO0okSh/%21cleanroom-relauncher-1.2.1.jar",
+      "folder": "mods",
+      "fileName": "!cleanroom-relauncher-1.2.1.jar",
+      "installationPolicy": {
+        "supersede": "!cleanroom-relauncher-1.1.4.jar"
+      },
+      "metadata": {
+        "hash": {
+          "SHA-256": "0f06bc4bc6cf3cee5487b187e3443c27284c12d8e705ec21b0a36b811b3806b1"
+        }
+      }
+    },
+    {
+      "url": "https://github.com/CleanroomMC/MixinBooter/releases/download/11.18/mixinbooter-11.18.jar",
+      "folder": "mods",
+      "fileName": "!mixinbooter-11.18.jar",
+      "installationPolicy": {
+        "supersede": "!mixinbooter-11.17.jar"
+      },
+      "metadata": {
+        "hash": {
+          "SHA-256": "ac6779132ca4df1a4f6319f3edc605c9d9b6c8ff6889e851472e2b41ecce273e"
+        }
+      }
+    },
+    {
+      "url": "https://github.com/CleanroomMC/Fugue/releases/download/0.25.3/%2BFugue-0.25.3.jar",
+      "folder": "mods",
+      "fileName": "+Fugue-0.25.3.jar",
+      "installationPolicy": {
+        "supersede": "+Fugue-0.24.4.jar"
+      },
+      "metadata": {
+        "hash": {
+          "SHA-256": "2b5e778a0b6a3ea96637debdd5df14ca8555f99f050451a8e8190165e0ffc43a"
+        }
+      }
+    },
+    {
+      "url": "https://cdn.modrinth.com/data/KphJPRlN/versions/7dcZOXlH/codechickenlib-3.3.8-universal.jar",
+      "folder": "mods",
+      "fileName": "codechickenlib-3.3.8-universal.jar",
+      "metadata": {
+        "hash": {
+          "SHA-256": "e3e79fc37cb397db569024ca82a2dc7c4a076e99c27ef25871d610709c07a247"
+        }
+      }
+    },
+    {
+      "url": "https://raw.githubusercontent.com/irunonlyoncoffe/techy-modpack-files/main/Essential_1-5-0-1_forge_1-12-2.jar",
+      "folder": "mods",
+      "fileName": "Essential_1-5-0-1_forge_1-12-2.jar",
+      "metadata": {
+        "hash": {
+          "SHA-256": "43f72f19e59825dcdd47d7eb3eb1d1abe479762d67d654007a6ec796c352e92e"
         }
       }
     },
