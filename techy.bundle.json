@@ -196,16 +196,6 @@
       }
     },
     {
-      "url": "https://raw.githubusercontent.com/irunonlyoncoffe/techy-modpack-files/main/essential/essential-loader.properties",
-      "folder": "essential",
-      "fileName": "essential-loader.properties",
-      "metadata": {
-        "hash": {
-          "SHA-256": "1719b9e41aad0e04a22c098d18e34c707df406e6d703d989d1ae09c92fd8e9cc"
-        }
-      }
-    },
-    {
       "url": "https://raw.githubusercontent.com/irunonlyoncoffe/techy-modpack-files/main/essential/libraries/forge_1.12.2/annotations-23.0.0.jar",
       "folder": "essential/libraries/forge_1.12.2",
       "fileName": "annotations-23.0.0.jar",
@@ -392,16 +382,6 @@
       "metadata": {
         "hash": {
           "SHA-256": "e09751484fd9b455e16b07a62ecd09c3c5d8a0fc4221f7542111bf025499c8f3"
-        }
-      }
-    },
-    {
-      "url": "https://raw.githubusercontent.com/irunonlyoncoffe/techy-modpack-files/main/essential/loader/stage1/launchwrapper/stage2.forge_1.12.2.properties",
-      "folder": "essential/loader/stage1/launchwrapper",
-      "fileName": "stage2.forge_1.12.2.properties",
-      "metadata": {
-        "hash": {
-          "SHA-256": "1719b9e41aad0e04a22c098d18e34c707df406e6d703d989d1ae09c92fd8e9cc"
         }
       }
     },
