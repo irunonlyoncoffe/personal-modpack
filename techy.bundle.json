@@ -201,7 +201,7 @@
       "fileName": "essential-loader.properties",
       "metadata": {
         "hash": {
-          "SHA-256": "90497af24e249b508f94bfa3408be283478de3c16a10233ef6550133a7544311"
+          "SHA-256": "1719b9e41aad0e04a22c098d18e34c707df406e6d703d989d1ae09c92fd8e9cc"
         }
       }
     },
@@ -401,7 +401,7 @@
       "fileName": "stage2.forge_1.12.2.properties",
       "metadata": {
         "hash": {
-          "SHA-256": "90497af24e249b508f94bfa3408be283478de3c16a10233ef6550133a7544311"
+          "SHA-256": "1719b9e41aad0e04a22c098d18e34c707df406e6d703d989d1ae09c92fd8e9cc"
         }
       }
     },
