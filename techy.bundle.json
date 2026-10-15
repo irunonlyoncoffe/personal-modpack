@@ -36,7 +36,7 @@
       "fileName": "hbm_material_output_fixes.zs",
       "metadata": {
         "hash": {
-            "SHA-256": "aed7fb4910f99bdc61bd3af7236366677ba124ce5fa16b99e932f58534aa699c"
+          "SHA-256": "aed7fb4910f99bdc61bd3af7236366677ba124ce5fa16b99e932f58534aa699c"
         }
       }
     },
@@ -192,6 +192,226 @@
       "metadata": {
         "hash": {
           "SHA-256": "1eecdefa00056efac98ff56e25f7ed840b70e2d809c628e38c9c5b5518ff14ff"
+        }
+      }
+    },
+    {
+      "url": "https://raw.githubusercontent.com/irunonlyoncoffe/techy-modpack-files/main/essential/essential-loader.properties",
+      "folder": "essential",
+      "fileName": "essential-loader.properties",
+      "metadata": {
+        "hash": {
+          "SHA-256": "90497af24e249b508f94bfa3408be283478de3c16a10233ef6550133a7544311"
+        }
+      }
+    },
+    {
+      "url": "https://raw.githubusercontent.com/irunonlyoncoffe/techy-modpack-files/main/essential/libraries/forge_1.12.2/annotations-23.0.0.jar",
+      "folder": "essential/libraries/forge_1.12.2",
+      "fileName": "annotations-23.0.0.jar",
+      "metadata": {
+        "hash": {
+          "SHA-256": "7b0f19724082cbfcbc66e5abea2b9bc92cf08a1ea11e191933ed43801eb3cd05"
+        }
+      }
+    },
+    {
+      "url": "https://raw.githubusercontent.com/irunonlyoncoffe/techy-modpack-files/main/essential/libraries/forge_1.12.2/caffeine-2.9.0.jar",
+      "folder": "essential/libraries/forge_1.12.2",
+      "fileName": "caffeine-2.9.0.jar",
+      "metadata": {
+        "hash": {
+          "SHA-256": "995a0b0188ae0802ace2ed9b85b04707a315862b57a7495d8620dc0f2307fa31"
+        }
+      }
+    },
+    {
+      "url": "https://raw.githubusercontent.com/irunonlyoncoffe/techy-modpack-files/main/essential/libraries/forge_1.12.2/elementa-774.jar",
+      "folder": "essential/libraries/forge_1.12.2",
+      "fileName": "elementa-774.jar",
+      "metadata": {
+        "hash": {
+          "SHA-256": "765831f7fb38e557cd828f9180937a0514a8efe103ab4b9ca0902aa663ddfa14"
+        }
+      }
+    },
+    {
+      "url": "https://raw.githubusercontent.com/irunonlyoncoffe/techy-modpack-files/main/essential/libraries/forge_1.12.2/essential-loader-mixin-0.2.0%2Bmixin.0.8.7.jar",
+      "folder": "essential/libraries/forge_1.12.2",
+      "fileName": "essential-loader-mixin-0.2.0+mixin.0.8.7.jar",
+      "metadata": {
+        "hash": {
+          "SHA-256": "f30dc144a343989e06b4f379be55efa0cd37d4e038b161665b73e7d0388a5df6"
+        }
+      }
+    },
+    {
+      "url": "https://raw.githubusercontent.com/irunonlyoncoffe/techy-modpack-files/main/essential/libraries/forge_1.12.2/kodein-di-jvm-7.6.0.jar",
+      "folder": "essential/libraries/forge_1.12.2",
+      "fileName": "kodein-di-jvm-7.6.0.jar",
+      "metadata": {
+        "hash": {
+          "SHA-256": "68d7460840bad11756ef81b1f8f6cdd081204a5b3a0513b709a0db6614d42630"
+        }
+      }
+    },
+    {
+      "url": "https://raw.githubusercontent.com/irunonlyoncoffe/techy-modpack-files/main/essential/libraries/forge_1.12.2/kodein-type-jvm-1.7.1.jar",
+      "folder": "essential/libraries/forge_1.12.2",
+      "fileName": "kodein-type-jvm-1.7.1.jar",
+      "metadata": {
+        "hash": {
+          "SHA-256": "ee7bade4731e861eecff38647b71380498205367cafda57c82f488c829b15b5c"
+        }
+      }
+    },
+    {
+      "url": "https://raw.githubusercontent.com/irunonlyoncoffe/techy-modpack-files/main/essential/libraries/forge_1.12.2/Koffee-88ba1b0.jar",
+      "folder": "essential/libraries/forge_1.12.2",
+      "fileName": "Koffee-88ba1b0.jar",
+      "metadata": {
+        "hash": {
+          "SHA-256": "251143c30668746418b72d076848d46ab5870793b50408538a6b23b44dbee3a3"
+        }
+      }
+    },
+    {
+      "url": "https://raw.githubusercontent.com/irunonlyoncoffe/techy-modpack-files/main/essential/libraries/forge_1.12.2/kotlin-reflect-2.3.0.jar",
+      "folder": "essential/libraries/forge_1.12.2",
+      "fileName": "kotlin-reflect-2.3.0.jar",
+      "metadata": {
+        "hash": {
+          "SHA-256": "714df4be819545ff4de1f36aa2183e0dea94b4c8cdf7ca29e9c89919baf36362"
+        }
+      }
+    },
+    {
+      "url": "https://raw.githubusercontent.com/irunonlyoncoffe/techy-modpack-files/main/essential/libraries/forge_1.12.2/kotlin-stdlib-2.3.0.jar",
+      "folder": "essential/libraries/forge_1.12.2",
+      "fileName": "kotlin-stdlib-2.3.0.jar",
+      "metadata": {
+        "hash": {
+          "SHA-256": "887587c91713250ad52fe14ad9166d042c33835049890e9437f355ffc5a195b1"
+        }
+      }
+    },
+    {
+      "url": "https://raw.githubusercontent.com/irunonlyoncoffe/techy-modpack-files/main/essential/libraries/forge_1.12.2/kotlin-stdlib-jdk7-2.3.0.jar",
+      "folder": "essential/libraries/forge_1.12.2",
+      "fileName": "kotlin-stdlib-jdk7-2.3.0.jar",
+      "metadata": {
+        "hash": {
+          "SHA-256": "5886a23865e68668a235c25645f4e367e8b4b19b9b12098633fb0f74f1a554b1"
+        }
+      }
+    },
+    {
+      "url": "https://raw.githubusercontent.com/irunonlyoncoffe/techy-modpack-files/main/essential/libraries/forge_1.12.2/kotlin-stdlib-jdk8-2.3.0.jar",
+      "folder": "essential/libraries/forge_1.12.2",
+      "fileName": "kotlin-stdlib-jdk8-2.3.0.jar",
+      "metadata": {
+        "hash": {
+          "SHA-256": "9c12ce489a51dd49df1a11f439122631a4ec86da8cd089dadc6a9a187cb7d88c"
+        }
+      }
+    },
+    {
+      "url": "https://raw.githubusercontent.com/irunonlyoncoffe/techy-modpack-files/main/essential/libraries/forge_1.12.2/kotlinx-coroutines-core-jvm-1.10.2.jar",
+      "folder": "essential/libraries/forge_1.12.2",
+      "fileName": "kotlinx-coroutines-core-jvm-1.10.2.jar",
+      "metadata": {
+        "hash": {
+          "SHA-256": "5ca175b38df331fd64155b35cd8cae1251fa9ee369709b36d42e0a288ccce3fd"
+        }
+      }
+    },
+    {
+      "url": "https://raw.githubusercontent.com/irunonlyoncoffe/techy-modpack-files/main/essential/libraries/forge_1.12.2/kotlinx-coroutines-jdk8-1.10.2.jar",
+      "folder": "essential/libraries/forge_1.12.2",
+      "fileName": "kotlinx-coroutines-jdk8-1.10.2.jar",
+      "metadata": {
+        "hash": {
+          "SHA-256": "f861f9fa3b3088e6f7c59bc92a91adacf687b5bdeb081cf3608c5454f7739625"
+        }
+      }
+    },
+    {
+      "url": "https://raw.githubusercontent.com/irunonlyoncoffe/techy-modpack-files/main/essential/libraries/forge_1.12.2/kotlinx-serialization-core-jvm-1.9.0.jar",
+      "folder": "essential/libraries/forge_1.12.2",
+      "fileName": "kotlinx-serialization-core-jvm-1.9.0.jar",
+      "metadata": {
+        "hash": {
+          "SHA-256": "1f0afa172110e45a7231ef1b44ae8fd84c1ebaff96f3fc3ad68ef8c48120b59c"
+        }
+      }
+    },
+    {
+      "url": "https://raw.githubusercontent.com/irunonlyoncoffe/techy-modpack-files/main/essential/libraries/forge_1.12.2/kotlinx-serialization-json-jvm-1.9.0.jar",
+      "folder": "essential/libraries/forge_1.12.2",
+      "fileName": "kotlinx-serialization-json-jvm-1.9.0.jar",
+      "metadata": {
+        "hash": {
+          "SHA-256": "d94cc34cae39246a1af74fda63f9c4812ce12216ef641d5fa3bbbb539a6922d8"
+        }
+      }
+    },
+    {
+      "url": "https://raw.githubusercontent.com/irunonlyoncoffe/techy-modpack-files/main/essential/libraries/forge_1.12.2/mixinextras-0.4.0.jar",
+      "folder": "essential/libraries/forge_1.12.2",
+      "fileName": "mixinextras-0.4.0.jar",
+      "metadata": {
+        "hash": {
+          "SHA-256": "a58ed26ea4b5848045393e82108de1810c248a58549540da8a6b3ae135661654"
+        }
+      }
+    },
+    {
+      "url": "https://raw.githubusercontent.com/irunonlyoncoffe/techy-modpack-files/main/essential/libraries/forge_1.12.2/universalcraft-1.12.2-forge-534.jar",
+      "folder": "essential/libraries/forge_1.12.2",
+      "fileName": "universalcraft-1.12.2-forge-534.jar",
+      "metadata": {
+        "hash": {
+          "SHA-256": "2bd7ba695a2ec14518ec6ee24c8428258779114ab6c57374114b1a027a368eb9"
+        }
+      }
+    },
+    {
+      "url": "https://raw.githubusercontent.com/irunonlyoncoffe/techy-modpack-files/main/essential/libraries/forge_1.12.2/vigilance-306.jar",
+      "folder": "essential/libraries/forge_1.12.2",
+      "fileName": "vigilance-306.jar",
+      "metadata": {
+        "hash": {
+          "SHA-256": "f85349bc99f8035c7d9e1a52671cc3b634ce7ecc9d8b9eb3806aba5c447393f2"
+        }
+      }
+    },
+    {
+      "url": "https://raw.githubusercontent.com/irunonlyoncoffe/techy-modpack-files/main/essential/loader/stage0/launchwrapper/stage1.jar",
+      "folder": "essential/loader/stage0/launchwrapper",
+      "fileName": "stage1.jar",
+      "metadata": {
+        "hash": {
+          "SHA-256": "e09751484fd9b455e16b07a62ecd09c3c5d8a0fc4221f7542111bf025499c8f3"
+        }
+      }
+    },
+    {
+      "url": "https://raw.githubusercontent.com/irunonlyoncoffe/techy-modpack-files/main/essential/loader/stage1/launchwrapper/stage2.forge_1.12.2.properties",
+      "folder": "essential/loader/stage1/launchwrapper",
+      "fileName": "stage2.forge_1.12.2.properties",
+      "metadata": {
+        "hash": {
+          "SHA-256": "90497af24e249b508f94bfa3408be283478de3c16a10233ef6550133a7544311"
+        }
+      }
+    },
+    {
+      "url": "https://raw.githubusercontent.com/irunonlyoncoffe/techy-modpack-files/main/essential/version.json",
+      "folder": "essential",
+      "fileName": "version.json",
+      "metadata": {
+        "hash": {
+          "SHA-256": "f9a2e5ff2f74b46c8179eb238a2b076d4762def7aa14e18c41cb46990881651a"
         }
       }
     }

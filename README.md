@@ -15,6 +15,7 @@ Files in this repository are downloaded by File Director for Techy Modpack.
 - Had Enough Items 4.36.1 is downloaded from the official CleanroomMC GitHub release and supersedes 4.35.1.
 - `codechickenlib-3.3.8-universal.jar` is installed from Modrinth CodeChicken Lib CRE.
 - `Essential_1-5-0-1_forge_1-12-2.jar` is installed into `mods`.
+- The `essential/` loader bootstrap (patched `stage1.jar` plus `libraries/forge_1.12.2`) is installed into the instance `essential/` folder so Essential does not try its broken Java 25 relaunch on Cleanroom.
 - Flan's Mod 5.10.0 and the obsolete Had Enough Items 4.35.0 jar are deleted from `mods`.
 
 Existing installations fetch the current bundle at startup. File Director downloads managed files when their checksum differs and applies the removal rules before Minecraft loads.
