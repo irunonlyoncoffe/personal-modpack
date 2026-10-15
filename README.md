@@ -20,3 +20,24 @@ Files in this repository are downloaded by File Director for Techy Modpack.
 - Flan's Mod 5.10.0 and the obsolete Had Enough Items 4.35.0 jar are deleted from `mods`.
 
 Existing installations fetch the current bundle at startup. File Director downloads managed files when their checksum differs and applies the removal rules before Minecraft loads.
+
+## Essential + Cleanroom (Java 25) crash
+
+If the log shows `Re-launching to load the newer versions` then
+`AppClassLoader cannot be cast to URLClassLoader`, Essential is crashing
+**before** Mod Director can install the patched loader.
+
+In Modrinth → instance → Settings → Java, add this extra argument:
+
+```
+-Dessential.loader.relaunch=false
+```
+
+Also ensure `config/mod-director/techy.remote.json` points at:
+
+```
+https://raw.githubusercontent.com/irunonlyoncoffe/techy-modpack-files/refs/heads/main/techy.bundle.json
+```
+
+(not the `/main/` URL — GitHub's raw CDN for `/main/` can lag). The Modrinth pack
+itself should ship that JVM arg and the patched Essential jar so first launch works.
