@@ -1,4 +1,20 @@
 {
+  "curse": [
+    {
+      "addonId": 1214490,
+      "fileId": 9122365,
+      "folder": "mods",
+      "fileName": "!cleanroom-relauncher-1.1.5.jar",
+      "installationPolicy": {
+        "supersede": "!cleanroom-relauncher-1.2.1.jar"
+      },
+      "metadata": {
+        "hash": {
+          "SHA-256": "451bad675068de0f15dc412866767ff8718772691ea0a89132f0f2cd6ed7e94b"
+        }
+      }
+    }
+  ],
   "url": [
     {
       "url": "https://raw.githubusercontent.com/irunonlyoncoffe/techy-modpack-files/main/hbm_material_output_fixes.zs",
@@ -40,19 +56,6 @@
       "metadata": {
         "hash": {
           "SHA-256": "c9b812ac3396f3628ca314f10dd775e0f0098cdbaec56be13b4a4f57b70c4443"
-        }
-      }
-    },
-    {
-      "url": "https://cdn.modrinth.com/data/HYV8rIOO/versions/WeO0okSh/%21cleanroom-relauncher-1.2.1.jar",
-      "folder": "mods",
-      "fileName": "!cleanroom-relauncher-1.2.1.jar",
-      "installationPolicy": {
-        "supersede": "!cleanroom-relauncher-1.1.4.jar"
-      },
-      "metadata": {
-        "hash": {
-          "SHA-256": "0f06bc4bc6cf3cee5487b187e3443c27284c12d8e705ec21b0a36b811b3806b1"
         }
       }
     },
@@ -166,6 +169,11 @@
       "folder": "mods",
       "fileName": "HadEnoughItems_1.12.2-4.35.0.jar",
       "delete": true
+    },
+    {
+      "folder": "mods",
+      "fileName": "!cleanroom-relauncher-1.1.4.jar",
+      "disable": true
     }
   ]
 }

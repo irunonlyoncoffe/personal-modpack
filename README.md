@@ -9,7 +9,7 @@ Files in this repository are downloaded by File Director for Techy Modpack.
 - `ntm-ae2-compat-1.1.4.jar` lets NTM-CE machines take AE2 processing patterns and choose the recipe fluid themselves. It supersedes `ntm-ae2-compat-1.1.3.jar`, which File Director disables by renaming it to `ntm-ae2-compat-1.1.3.jar.disabled-by-mod-director`.
 - `hbm-de-nv-compat-1.0.1.jar` lets HBM night-vision goggles work on Draconic Evolution armor and registers Wyvern and Draconic helmets for HBM polluted-air and gas protection.
 - `RedstoneFlux-1.12-2.1.1.1-universal.jar`, `BrandonsCore-1.12.2-2.4.20.162-universal.jar`, and `Draconic-Evolution-1.12.2-2.3.28.354-universal.jar` are installed into `mods`. Brandon's Core and Redstone Flux are required by Draconic Evolution.
-- `!cleanroom-relauncher-1.2.1.jar`, `!mixinbooter-11.18.jar`, and `+Fugue-0.25.3.jar` are installed from Modrinth or CleanroomMC GitHub releases and supersede the previous Cleanroom loader jars.
+- `!cleanroom-relauncher-1.1.5.jar` is installed from CurseForge and supersedes `!cleanroom-relauncher-1.2.1.jar`. `!mixinbooter-11.18.jar` and `+Fugue-0.25.3.jar` are installed from CleanroomMC GitHub releases and supersede the previous Cleanroom loader jars.
 - Had Enough Items 4.36.1 is downloaded from the official CleanroomMC GitHub release and supersedes 4.35.1.
 - `codechickenlib-3.3.8-universal.jar` is installed from Modrinth CodeChicken Lib CRE.
 - `Essential_1-5-0-1_forge_1-12-2.jar` is installed into `mods`.
