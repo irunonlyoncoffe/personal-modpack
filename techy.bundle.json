@@ -427,6 +427,11 @@
       "folder": "mods",
       "fileName": "+Fugue-0.24.4.jar",
       "disable": true
+    },
+    {
+      "folder": "mods",
+      "fileName": "+Fugue-0.25.3.jar",
+      "disable": true
     }
   ]
 }
