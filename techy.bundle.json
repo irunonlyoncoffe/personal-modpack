@@ -27,6 +27,20 @@
           "SHA-256": "519432c7710510b30e33f11555187295b19ecfe0a50c47d43d952c849dee7128"
         }
       }
+    },
+    {
+      "addonId": 1005815,
+      "fileId": 9202433,
+      "folder": "mods",
+      "fileName": "+Fugue-0.25.4.jar",
+      "installationPolicy": {
+        "supersede": "+Fugue-0.25.3.jar"
+      },
+      "metadata": {
+        "hash": {
+          "SHA-256": "a422c1341946d16c8b705d74ece6099b305ce1b9f888c64dbef51b597bb1292b"
+        }
+      }
     }
   ],
   "url": [
@@ -116,19 +130,6 @@
       "metadata": {
         "hash": {
           "SHA-256": "ac6779132ca4df1a4f6319f3edc605c9d9b6c8ff6889e851472e2b41ecce273e"
-        }
-      }
-    },
-    {
-      "url": "https://github.com/CleanroomMC/Fugue/releases/download/0.25.3/%2BFugue-0.25.3.jar",
-      "folder": "mods",
-      "fileName": "+Fugue-0.25.3.jar",
-      "installationPolicy": {
-        "supersede": "+Fugue-0.24.4.jar"
-      },
-      "metadata": {
-        "hash": {
-          "SHA-256": "2b5e778a0b6a3ea96637debdd5df14ca8555f99f050451a8e8190165e0ffc43a"
         }
       }
     },
@@ -420,6 +421,11 @@
     {
       "folder": "mods",
       "fileName": "!cleanroom-relauncher-1.1.4.jar",
+      "disable": true
+    },
+    {
+      "folder": "mods",
+      "fileName": "+Fugue-0.24.4.jar",
       "disable": true
     }
   ]
