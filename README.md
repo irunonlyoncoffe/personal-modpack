@@ -10,7 +10,7 @@ Files in this repository are downloaded by File Director for Techy Modpack.
 - `techy.bundle.json` tells File Director where managed files belong and pins their SHA-256 checksums.
 - `techy.remote.json` should point at `.../refs/heads/main/techy.bundle.json` (not `/main/`), because GitHub's `/main/` raw CDN can lag and serve a stale bundle.
 - `ntm-ae2-compat-1.1.4.jar` lets NTM-CE machines take AE2 processing patterns and choose the recipe fluid themselves. It supersedes `ntm-ae2-compat-1.1.3.jar`, which File Director disables by renaming it to `ntm-ae2-compat-1.1.3.jar.disabled-by-mod-director`.
-- `hbm-de-nv-compat-1.0.1.jar` lets HBM night-vision goggles work on Draconic Evolution armor and registers Wyvern and Draconic helmets for HBM polluted-air and gas protection.
+- `hbm-de-nv-compat-1.0.2.jar` lets HBM night-vision goggles work on Draconic Evolution armor, seals Wyvern/Draconic sets so NTM-Space PLSS can be installed and used on them, and gives them Remnants Power Armor radiation resistance. It supersedes `hbm-de-nv-compat-1.0.1.jar`.
 - `RedstoneFlux-1.12-2.1.1.1-universal.jar`, `BrandonsCore-1.12.2-2.4.20.162-universal.jar`, and `Draconic-Evolution-1.12.2-2.3.28.354-universal.jar` are installed into `mods`. Brandon's Core and Redstone Flux are required by Draconic Evolution.
 - `!cleanroom-relauncher-1.2.1.jar` is installed into `mods` and supersedes `!cleanroom-relauncher-1.1.5.jar`. `!mixinbooter-11.18.jar` is installed from CleanroomMC GitHub releases. `+Fugue-0.25.4.jar` (CurseForge file 9202433) supersedes `+Fugue-0.25.3.jar`.
 - Had Enough Items 4.36.1 is downloaded from the official CleanroomMC GitHub release and supersedes 4.35.1.

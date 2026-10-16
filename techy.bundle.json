@@ -167,12 +167,15 @@
       }
     },
     {
-      "url": "https://raw.githubusercontent.com/irunonlyoncoffe/techy-modpack-files/main/hbm-de-nv-compat-1.0.1.jar",
+      "url": "https://raw.githubusercontent.com/irunonlyoncoffe/techy-modpack-files/main/hbm-de-nv-compat-1.0.2.jar",
       "folder": "mods",
-      "fileName": "hbm-de-nv-compat-1.0.1.jar",
+      "fileName": "hbm-de-nv-compat-1.0.2.jar",
+      "installationPolicy": {
+        "supersede": "hbm-de-nv-compat-1.0.1.jar"
+      },
       "metadata": {
         "hash": {
-          "SHA-256": "b78ec40d546710dced5fca91eec88f06aede4c8835edba3893a65f50fa08dfeb"
+          "SHA-256": "b72422a96126e5f46a40334bbdd15391af511b44a7168d9ed3a6baeff527624f"
         }
       }
     },
