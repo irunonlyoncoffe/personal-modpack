@@ -1,0 +1,11 @@
+[
+  {
+    "modid": "ntmae2compat",
+    "name": "NTM AE2 Compat",
+    "description": "Lets NTM-CE machines take AE2 processing patterns and select the recipe fluid themselves. Built for NTM-CE 1.12.2-2.6.1.0.",
+    "version": "1.1.5",
+    "mcversion": "1.12.2",
+    "authorList": ["ntmae2compat"],
+    "dependencies": ["hbm", "appliedenergistics2"]
+  }
+]

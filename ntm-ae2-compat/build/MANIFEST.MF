@@ -1,0 +1,7 @@
+Manifest-Version: 1.0
+FMLCorePlugin: com.ntmae2.NTMAE2CorePlugin
+FMLCorePluginContainsFMLMod: true
+ForceLoadAsMod: true
+MixinConfigs: mixins.ntmae2compat.json
+Created-By: 21.0.10 (Ubuntu)
+

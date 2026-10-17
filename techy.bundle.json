@@ -154,15 +154,15 @@
       }
     },
     {
-      "url": "https://raw.githubusercontent.com/irunonlyoncoffe/techy-modpack-files/main/ntm-ae2-compat-1.1.4.jar",
+      "url": "https://raw.githubusercontent.com/irunonlyoncoffe/techy-modpack-files/main/ntm-ae2-compat-1.1.5.jar",
       "folder": "mods",
-      "fileName": "ntm-ae2-compat-1.1.4.jar",
+      "fileName": "ntm-ae2-compat-1.1.5.jar",
       "installationPolicy": {
-        "supersede": "ntm-ae2-compat-1.1.3.jar"
+        "supersede": "ntm-ae2-compat-1.1.4.jar"
       },
       "metadata": {
         "hash": {
-          "SHA-256": "19ff0db139b2524ed4cdbd6e8b752a04510eedcd520abaab10abe66894079594"
+          "SHA-256": "2dc42cd9e6ad295da191d769e38fe54ff89aa5b4edca3c90ecfec0b99b1da908"
         }
       }
     },
