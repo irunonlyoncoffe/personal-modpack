@@ -1,0 +1,6 @@
+Manifest-Version: 1.0
+FMLCorePlugin: com.enchantcompat.EnchantCompatCorePlugin
+FMLCorePluginContainsFMLMod: true
+ForceLoadAsMod: true
+MixinConfigs: mixins.enchantcompat.json
+Created-By: enchant-compat-build
