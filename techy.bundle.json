@@ -45,7 +45,7 @@
   ],
   "url": [
     {
-      "url": "https://raw.githubusercontent.com/irunonlyoncoffe/techy-modpack-files/main/hbm_material_output_fixes.zs",
+      "url": "https://raw.githubusercontent.com/irunonlyoncoffe/personal-modpack/main/hbm_material_output_fixes.zs",
       "folder": "scripts",
       "fileName": "hbm_material_output_fixes.zs",
       "metadata": {
@@ -55,7 +55,7 @@
       }
     },
     {
-      "url": "https://raw.githubusercontent.com/irunonlyoncoffe/techy-modpack-files/main/hbmShredder.json",
+      "url": "https://raw.githubusercontent.com/irunonlyoncoffe/personal-modpack/main/hbmShredder.json",
       "folder": "config/hbmRecipes",
       "fileName": "hbmShredder.json",
       "metadata": {
@@ -65,7 +65,7 @@
       }
     },
     {
-      "url": "https://raw.githubusercontent.com/irunonlyoncoffe/techy-modpack-files/main/rustic.cfg",
+      "url": "https://raw.githubusercontent.com/irunonlyoncoffe/personal-modpack/main/rustic.cfg",
       "folder": "config",
       "fileName": "rustic.cfg",
       "metadata": {
@@ -75,7 +75,7 @@
       }
     },
     {
-      "url": "https://raw.githubusercontent.com/irunonlyoncoffe/techy-modpack-files/main/gnetum.json",
+      "url": "https://raw.githubusercontent.com/irunonlyoncoffe/personal-modpack/main/gnetum.json",
       "folder": "config",
       "fileName": "gnetum.json",
       "metadata": {
@@ -85,7 +85,7 @@
       }
     },
     {
-      "url": "https://raw.githubusercontent.com/irunonlyoncoffe/techy-modpack-files/refs/heads/main/%21techy-essential-norelaunch-1.0.0.jar",
+      "url": "https://raw.githubusercontent.com/irunonlyoncoffe/personal-modpack/refs/heads/main/%21techy-essential-norelaunch-1.0.0.jar",
       "folder": "mods",
       "fileName": "!techy-essential-norelaunch-1.0.0.jar",
       "metadata": {
@@ -108,7 +108,7 @@
       }
     },
     {
-      "url": "https://raw.githubusercontent.com/irunonlyoncoffe/techy-modpack-files/refs/heads/main/%21cleanroom-relauncher-1.2.1.jar",
+      "url": "https://raw.githubusercontent.com/irunonlyoncoffe/personal-modpack/refs/heads/main/%21cleanroom-relauncher-1.2.1.jar",
       "folder": "mods",
       "fileName": "!cleanroom-relauncher-1.2.1.jar",
       "installationPolicy": {
@@ -144,7 +144,7 @@
       }
     },
     {
-      "url": "https://raw.githubusercontent.com/irunonlyoncoffe/techy-modpack-files/main/Essential_1-5-0-1_forge_1-12-2.jar",
+      "url": "https://raw.githubusercontent.com/irunonlyoncoffe/personal-modpack/main/Essential_1-5-0-1_forge_1-12-2.jar",
       "folder": "mods",
       "fileName": "Essential_1-5-0-1_forge_1-12-2.jar",
       "metadata": {
@@ -154,7 +154,7 @@
       }
     },
     {
-      "url": "https://raw.githubusercontent.com/irunonlyoncoffe/techy-modpack-files/main/ntm-ae2-compat-1.1.5.jar",
+      "url": "https://raw.githubusercontent.com/irunonlyoncoffe/personal-modpack/main/ntm-ae2-compat-1.1.5.jar",
       "folder": "mods",
       "fileName": "ntm-ae2-compat-1.1.5.jar",
       "installationPolicy": {
@@ -167,7 +167,7 @@
       }
     },
     {
-      "url": "https://raw.githubusercontent.com/irunonlyoncoffe/techy-modpack-files/main/hbm-de-nv-compat-1.0.2.jar",
+      "url": "https://raw.githubusercontent.com/irunonlyoncoffe/personal-modpack/main/hbm-de-nv-compat-1.0.2.jar",
       "folder": "mods",
       "fileName": "hbm-de-nv-compat-1.0.2.jar",
       "installationPolicy": {
@@ -180,7 +180,7 @@
       }
     },
     {
-      "url": "https://raw.githubusercontent.com/irunonlyoncoffe/techy-modpack-files/main/RedstoneFlux-1.12-2.1.1.1-universal.jar",
+      "url": "https://raw.githubusercontent.com/irunonlyoncoffe/personal-modpack/main/RedstoneFlux-1.12-2.1.1.1-universal.jar",
       "folder": "mods",
       "fileName": "RedstoneFlux-1.12-2.1.1.1-universal.jar",
       "metadata": {
@@ -190,7 +190,7 @@
       }
     },
     {
-      "url": "https://raw.githubusercontent.com/irunonlyoncoffe/techy-modpack-files/main/BrandonsCore-1.12.2-2.4.20.162-universal.jar",
+      "url": "https://raw.githubusercontent.com/irunonlyoncoffe/personal-modpack/main/BrandonsCore-1.12.2-2.4.20.162-universal.jar",
       "folder": "mods",
       "fileName": "BrandonsCore-1.12.2-2.4.20.162-universal.jar",
       "metadata": {
@@ -200,7 +200,7 @@
       }
     },
     {
-      "url": "https://raw.githubusercontent.com/irunonlyoncoffe/techy-modpack-files/main/Draconic-Evolution-1.12.2-2.3.28.354-universal.jar",
+      "url": "https://raw.githubusercontent.com/irunonlyoncoffe/personal-modpack/main/Draconic-Evolution-1.12.2-2.3.28.354-universal.jar",
       "folder": "mods",
       "fileName": "Draconic-Evolution-1.12.2-2.3.28.354-universal.jar",
       "metadata": {
@@ -210,7 +210,7 @@
       }
     },
     {
-      "url": "https://raw.githubusercontent.com/irunonlyoncoffe/techy-modpack-files/main/essential/libraries/forge_1.12.2/annotations-23.0.0.jar",
+      "url": "https://raw.githubusercontent.com/irunonlyoncoffe/personal-modpack/main/essential/libraries/forge_1.12.2/annotations-23.0.0.jar",
       "folder": "essential/libraries/forge_1.12.2",
       "fileName": "annotations-23.0.0.jar",
       "metadata": {
@@ -220,7 +220,7 @@
       }
     },
     {
-      "url": "https://raw.githubusercontent.com/irunonlyoncoffe/techy-modpack-files/main/essential/libraries/forge_1.12.2/caffeine-2.9.0.jar",
+      "url": "https://raw.githubusercontent.com/irunonlyoncoffe/personal-modpack/main/essential/libraries/forge_1.12.2/caffeine-2.9.0.jar",
       "folder": "essential/libraries/forge_1.12.2",
       "fileName": "caffeine-2.9.0.jar",
       "metadata": {
@@ -230,7 +230,7 @@
       }
     },
     {
-      "url": "https://raw.githubusercontent.com/irunonlyoncoffe/techy-modpack-files/main/essential/libraries/forge_1.12.2/elementa-774.jar",
+      "url": "https://raw.githubusercontent.com/irunonlyoncoffe/personal-modpack/main/essential/libraries/forge_1.12.2/elementa-774.jar",
       "folder": "essential/libraries/forge_1.12.2",
       "fileName": "elementa-774.jar",
       "metadata": {
@@ -240,7 +240,7 @@
       }
     },
     {
-      "url": "https://raw.githubusercontent.com/irunonlyoncoffe/techy-modpack-files/main/essential/libraries/forge_1.12.2/essential-loader-mixin-0.2.0%2Bmixin.0.8.7.jar",
+      "url": "https://raw.githubusercontent.com/irunonlyoncoffe/personal-modpack/main/essential/libraries/forge_1.12.2/essential-loader-mixin-0.2.0%2Bmixin.0.8.7.jar",
       "folder": "essential/libraries/forge_1.12.2",
       "fileName": "essential-loader-mixin-0.2.0+mixin.0.8.7.jar",
       "metadata": {
@@ -250,7 +250,7 @@
       }
     },
     {
-      "url": "https://raw.githubusercontent.com/irunonlyoncoffe/techy-modpack-files/main/essential/libraries/forge_1.12.2/kodein-di-jvm-7.6.0.jar",
+      "url": "https://raw.githubusercontent.com/irunonlyoncoffe/personal-modpack/main/essential/libraries/forge_1.12.2/kodein-di-jvm-7.6.0.jar",
       "folder": "essential/libraries/forge_1.12.2",
       "fileName": "kodein-di-jvm-7.6.0.jar",
       "metadata": {
@@ -260,7 +260,7 @@
       }
     },
     {
-      "url": "https://raw.githubusercontent.com/irunonlyoncoffe/techy-modpack-files/main/essential/libraries/forge_1.12.2/kodein-type-jvm-1.7.1.jar",
+      "url": "https://raw.githubusercontent.com/irunonlyoncoffe/personal-modpack/main/essential/libraries/forge_1.12.2/kodein-type-jvm-1.7.1.jar",
       "folder": "essential/libraries/forge_1.12.2",
       "fileName": "kodein-type-jvm-1.7.1.jar",
       "metadata": {
@@ -270,7 +270,7 @@
       }
     },
     {
-      "url": "https://raw.githubusercontent.com/irunonlyoncoffe/techy-modpack-files/main/essential/libraries/forge_1.12.2/Koffee-88ba1b0.jar",
+      "url": "https://raw.githubusercontent.com/irunonlyoncoffe/personal-modpack/main/essential/libraries/forge_1.12.2/Koffee-88ba1b0.jar",
       "folder": "essential/libraries/forge_1.12.2",
       "fileName": "Koffee-88ba1b0.jar",
       "metadata": {
@@ -280,7 +280,7 @@
       }
     },
     {
-      "url": "https://raw.githubusercontent.com/irunonlyoncoffe/techy-modpack-files/main/essential/libraries/forge_1.12.2/kotlin-reflect-2.3.0.jar",
+      "url": "https://raw.githubusercontent.com/irunonlyoncoffe/personal-modpack/main/essential/libraries/forge_1.12.2/kotlin-reflect-2.3.0.jar",
       "folder": "essential/libraries/forge_1.12.2",
       "fileName": "kotlin-reflect-2.3.0.jar",
       "metadata": {
@@ -290,7 +290,7 @@
       }
     },
     {
-      "url": "https://raw.githubusercontent.com/irunonlyoncoffe/techy-modpack-files/main/essential/libraries/forge_1.12.2/kotlin-stdlib-2.3.0.jar",
+      "url": "https://raw.githubusercontent.com/irunonlyoncoffe/personal-modpack/main/essential/libraries/forge_1.12.2/kotlin-stdlib-2.3.0.jar",
       "folder": "essential/libraries/forge_1.12.2",
       "fileName": "kotlin-stdlib-2.3.0.jar",
       "metadata": {
@@ -300,7 +300,7 @@
       }
     },
     {
-      "url": "https://raw.githubusercontent.com/irunonlyoncoffe/techy-modpack-files/main/essential/libraries/forge_1.12.2/kotlin-stdlib-jdk7-2.3.0.jar",
+      "url": "https://raw.githubusercontent.com/irunonlyoncoffe/personal-modpack/main/essential/libraries/forge_1.12.2/kotlin-stdlib-jdk7-2.3.0.jar",
       "folder": "essential/libraries/forge_1.12.2",
       "fileName": "kotlin-stdlib-jdk7-2.3.0.jar",
       "metadata": {
@@ -310,7 +310,7 @@
       }
     },
     {
-      "url": "https://raw.githubusercontent.com/irunonlyoncoffe/techy-modpack-files/main/essential/libraries/forge_1.12.2/kotlin-stdlib-jdk8-2.3.0.jar",
+      "url": "https://raw.githubusercontent.com/irunonlyoncoffe/personal-modpack/main/essential/libraries/forge_1.12.2/kotlin-stdlib-jdk8-2.3.0.jar",
       "folder": "essential/libraries/forge_1.12.2",
       "fileName": "kotlin-stdlib-jdk8-2.3.0.jar",
       "metadata": {
@@ -320,7 +320,7 @@
       }
     },
     {
-      "url": "https://raw.githubusercontent.com/irunonlyoncoffe/techy-modpack-files/main/essential/libraries/forge_1.12.2/kotlinx-coroutines-core-jvm-1.10.2.jar",
+      "url": "https://raw.githubusercontent.com/irunonlyoncoffe/personal-modpack/main/essential/libraries/forge_1.12.2/kotlinx-coroutines-core-jvm-1.10.2.jar",
       "folder": "essential/libraries/forge_1.12.2",
       "fileName": "kotlinx-coroutines-core-jvm-1.10.2.jar",
       "metadata": {
@@ -330,7 +330,7 @@
       }
     },
     {
-      "url": "https://raw.githubusercontent.com/irunonlyoncoffe/techy-modpack-files/main/essential/libraries/forge_1.12.2/kotlinx-coroutines-jdk8-1.10.2.jar",
+      "url": "https://raw.githubusercontent.com/irunonlyoncoffe/personal-modpack/main/essential/libraries/forge_1.12.2/kotlinx-coroutines-jdk8-1.10.2.jar",
       "folder": "essential/libraries/forge_1.12.2",
       "fileName": "kotlinx-coroutines-jdk8-1.10.2.jar",
       "metadata": {
@@ -340,7 +340,7 @@
       }
     },
     {
-      "url": "https://raw.githubusercontent.com/irunonlyoncoffe/techy-modpack-files/main/essential/libraries/forge_1.12.2/kotlinx-serialization-core-jvm-1.9.0.jar",
+      "url": "https://raw.githubusercontent.com/irunonlyoncoffe/personal-modpack/main/essential/libraries/forge_1.12.2/kotlinx-serialization-core-jvm-1.9.0.jar",
       "folder": "essential/libraries/forge_1.12.2",
       "fileName": "kotlinx-serialization-core-jvm-1.9.0.jar",
       "metadata": {
@@ -350,7 +350,7 @@
       }
     },
     {
-      "url": "https://raw.githubusercontent.com/irunonlyoncoffe/techy-modpack-files/main/essential/libraries/forge_1.12.2/kotlinx-serialization-json-jvm-1.9.0.jar",
+      "url": "https://raw.githubusercontent.com/irunonlyoncoffe/personal-modpack/main/essential/libraries/forge_1.12.2/kotlinx-serialization-json-jvm-1.9.0.jar",
       "folder": "essential/libraries/forge_1.12.2",
       "fileName": "kotlinx-serialization-json-jvm-1.9.0.jar",
       "metadata": {
@@ -360,7 +360,7 @@
       }
     },
     {
-      "url": "https://raw.githubusercontent.com/irunonlyoncoffe/techy-modpack-files/main/essential/libraries/forge_1.12.2/mixinextras-0.4.0.jar",
+      "url": "https://raw.githubusercontent.com/irunonlyoncoffe/personal-modpack/main/essential/libraries/forge_1.12.2/mixinextras-0.4.0.jar",
       "folder": "essential/libraries/forge_1.12.2",
       "fileName": "mixinextras-0.4.0.jar",
       "metadata": {
@@ -370,7 +370,7 @@
       }
     },
     {
-      "url": "https://raw.githubusercontent.com/irunonlyoncoffe/techy-modpack-files/main/essential/libraries/forge_1.12.2/universalcraft-1.12.2-forge-534.jar",
+      "url": "https://raw.githubusercontent.com/irunonlyoncoffe/personal-modpack/main/essential/libraries/forge_1.12.2/universalcraft-1.12.2-forge-534.jar",
       "folder": "essential/libraries/forge_1.12.2",
       "fileName": "universalcraft-1.12.2-forge-534.jar",
       "metadata": {
@@ -380,7 +380,7 @@
       }
     },
     {
-      "url": "https://raw.githubusercontent.com/irunonlyoncoffe/techy-modpack-files/main/essential/libraries/forge_1.12.2/vigilance-306.jar",
+      "url": "https://raw.githubusercontent.com/irunonlyoncoffe/personal-modpack/main/essential/libraries/forge_1.12.2/vigilance-306.jar",
       "folder": "essential/libraries/forge_1.12.2",
       "fileName": "vigilance-306.jar",
       "metadata": {
@@ -390,7 +390,7 @@
       }
     },
     {
-      "url": "https://raw.githubusercontent.com/irunonlyoncoffe/techy-modpack-files/main/essential/loader/stage0/launchwrapper/stage1.jar",
+      "url": "https://raw.githubusercontent.com/irunonlyoncoffe/personal-modpack/main/essential/loader/stage0/launchwrapper/stage1.jar",
       "folder": "essential/loader/stage0/launchwrapper",
       "fileName": "stage1.jar",
       "metadata": {
@@ -400,7 +400,7 @@
       }
     },
     {
-      "url": "https://raw.githubusercontent.com/irunonlyoncoffe/techy-modpack-files/main/essential/version.json",
+      "url": "https://raw.githubusercontent.com/irunonlyoncoffe/personal-modpack/main/essential/version.json",
       "folder": "essential",
       "fileName": "version.json",
       "metadata": {
