@@ -1,7 +1,7 @@
 $ErrorActionPreference = "Stop"
 $root = Split-Path -Parent $MyInvocation.MyCommand.Path
 $repo = Split-Path -Parent $root
-$version = "1.0.0"
+$version = "1.0.2"
 $outJar = Join-Path $repo "enchant-compat-$version.jar"
 $profileMods = "C:\Users\carol\AppData\Roaming\ModrinthApp\profiles\Techy Modpack\mods"
 $deJar = Join-Path $profileMods "Draconic-Evolution-1.12.2-2.3.28.354-universal.jar"
@@ -39,6 +39,15 @@ try {
 
 $profileOut = Join-Path $profileMods "enchant-compat-$version.jar"
 Copy-Item $outJar $profileOut -Force
+
+# Drop older versions when possible (fails softly if the game has them locked)
+Get-ChildItem $profileMods -Filter "enchant-compat-*.jar" -ErrorAction SilentlyContinue |
+  Where-Object { $_.Name -ne "enchant-compat-$version.jar" } |
+  ForEach-Object {
+    try { Remove-Item $_.FullName -Force -ErrorAction Stop }
+    catch { Write-Warning "Could not remove $($_.Name) (locked?). Delete it after closing the game." }
+  }
+
 Write-Host "Built $outJar"
 Write-Host "Installed $profileOut"
 & jar tf $outJar

@@ -4,6 +4,8 @@ import net.minecraft.enchantment.Enchantment;
 
 public class Item {
     public boolean func_77645_m() { return false; }
+    /** isEnchantable — rejected for HBM unbreakable tools (maxUses=0) */
+    public boolean func_77616_k(ItemStack stack) { return false; }
     public int getItemEnchantability(ItemStack stack) { return 0; }
     public boolean canApplyAtEnchantingTable(ItemStack stack, Enchantment enchantment) { return false; }
 }

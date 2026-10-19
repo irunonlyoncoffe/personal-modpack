@@ -1,7 +1,7 @@
 package com.enchantcompat.mixin;
 
+import com.enchantcompat.EnchantCompatHooks;
 import net.minecraft.enchantment.Enchantment;
-import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;
@@ -23,7 +23,7 @@ public abstract class MixinEnchantment {
     /** canApply — SRG name in production 1.12.2 */
     @Inject(method = "func_92089_a", at = @At("HEAD"), cancellable = true, remap = false)
     private void enchantcompat$canApply(ItemStack stack, CallbackInfoReturnable<Boolean> cir) {
-        if (stack != null && !stack.func_190926_b() && isEnchantableItem(stack)) {
+        if (EnchantCompatHooks.canTakeEnchants(stack)) {
             cir.setReturnValue(Boolean.TRUE);
         }
     }
@@ -31,21 +31,8 @@ public abstract class MixinEnchantment {
     /** Forge method — not obfuscated */
     @Inject(method = "canApplyAtEnchantingTable", at = @At("HEAD"), cancellable = true, remap = false)
     private void enchantcompat$canApplyAtTable(ItemStack stack, CallbackInfoReturnable<Boolean> cir) {
-        if (stack != null && !stack.func_190926_b() && isEnchantableItem(stack)) {
+        if (EnchantCompatHooks.canTakeEnchants(stack)) {
             cir.setReturnValue(Boolean.TRUE);
         }
-    }
-
-    private static boolean isEnchantableItem(ItemStack stack) {
-        Item item = stack.func_77973_b();
-        if (item == null) {
-            return false;
-        }
-        // Vanilla / mod tools with durability
-        if (item.func_77645_m()) {
-            return true;
-        }
-        // Energy tools (DE, etc.) expose enchantability without maxDamage
-        return item.getItemEnchantability(stack) > 0;
     }
 }
