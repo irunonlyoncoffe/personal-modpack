@@ -30,15 +30,15 @@
     },
     {
       "addonId": 1005815,
-      "fileId": 9202433,
+      "fileId": 9216207,
       "folder": "mods",
-      "fileName": "+Fugue-0.25.4.jar",
+      "fileName": "+Fugue-0.25.5.jar",
       "installationPolicy": {
-        "supersede": "+Fugue-0.25.3.jar"
+        "supersede": "+Fugue-0.25.4.jar"
       },
       "metadata": {
         "hash": {
-          "SHA-256": "a422c1341946d16c8b705d74ece6099b305ce1b9f888c64dbef51b597bb1292b"
+          "SHA-256": "002bc5dd1e9ba954e8eb6bd14a85a6dc32525ae90c2613aa577c67067c820af3"
         }
       }
     }
@@ -428,6 +428,11 @@
     {
       "folder": "mods",
       "fileName": "+Fugue-0.25.3.jar",
+      "disable": true
+    },
+    {
+      "folder": "mods",
+      "fileName": "+Fugue-0.25.4.jar",
       "disable": true
     },
     {
