@@ -1,8 +1,8 @@
 $ErrorActionPreference = "Stop"
 $root = Split-Path -Parent $MyInvocation.MyCommand.Path
 $repo = Split-Path -Parent $root
-$version = "1.1.5"
-$baseJar = Join-Path $repo "ntm-ae2-compat-1.1.4.jar"
+$version = "1.1.6"
+$baseJar = Join-Path $repo "ntm-ae2-compat-1.1.5.jar"
 $outJar = Join-Path $repo "ntm-ae2-compat-$version.jar"
 $hbm = "C:\Users\carol\AppData\Roaming\ModrinthApp\profiles\Techy Modpack\mods\NTM-CE-1.12.2-2.6.1.0.jar"
 $ae2 = "C:\Users\carol\AppData\Roaming\ModrinthApp\profiles\Techy Modpack\mods\ae2-uel-v0.56.7.jar"
