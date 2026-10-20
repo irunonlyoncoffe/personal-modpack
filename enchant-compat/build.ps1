@@ -1,12 +1,15 @@
 $ErrorActionPreference = "Stop"
 $root = Split-Path -Parent $MyInvocation.MyCommand.Path
 $repo = Split-Path -Parent $root
-$version = "1.0.2"
+$version = "1.0.3"
 $outJar = Join-Path $repo "enchant-compat-$version.jar"
-$profileMods = "C:\Users\carol\AppData\Roaming\ModrinthApp\profiles\Techy Modpack\mods"
-$deJar = Join-Path $profileMods "Draconic-Evolution-1.12.2-2.3.28.354-universal.jar"
-
-if (-not (Test-Path $deJar)) { throw "Missing DE jar: $deJar" }
+$profileMods = @(
+  "C:\Users\carol\AppData\Roaming\PrismLauncher\instances\Techy Modpack 1.0.0\minecraft\mods",
+  "C:\Users\carol\AppData\Roaming\ModrinthApp\profiles\Techy Modpack\mods"
+) | Where-Object { Test-Path $_ } | Select-Object -First 1
+if (-not $profileMods) { throw "No Techy mods folder found" }
+$deJar = Get-ChildItem $profileMods -Filter "Draconic-Evolution*.jar" | Select-Object -First 1 -ExpandProperty FullName
+if (-not $deJar) { throw "Missing DE jar in $profileMods" }
 
 $build = Join-Path $root "build"
 $classes = Join-Path $build "classes"

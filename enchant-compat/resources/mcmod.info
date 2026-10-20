@@ -3,7 +3,7 @@
     "modid": "enchantcompat",
     "name": "Enchant Compat",
     "description": "Lets enchantments combine freely and apply to HBM/DE/QuantumThings tools & armor. Makes OpenBlocks Last Stand (XP) work with Draconic armor instead of only DE's RF last-stand.",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "mcversion": "1.12.2",
     "authorList": ["enchantcompat"]
   }

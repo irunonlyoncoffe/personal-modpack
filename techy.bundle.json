@@ -82,12 +82,12 @@
       }
     },
     {
-      "url": "https://raw.githubusercontent.com/irunonlyoncoffe/personal-modpack/main/enchant-compat-1.0.2.jar",
+      "url": "https://raw.githubusercontent.com/irunonlyoncoffe/personal-modpack/main/enchant-compat-1.0.3.jar",
       "folder": "mods",
-      "fileName": "enchant-compat-1.0.2.jar",
+      "fileName": "enchant-compat-1.0.3.jar",
       "metadata": {
         "hash": {
-          "SHA-256": "171eb85f09d64a88f7c8492f4fc9692ae122645974cf669ffde3b5f9fe93ec6a"
+          "SHA-256": "f226efed91bc4e1cdbb34dd756aca0c598721fdfb1aaef32584066e38a5550bd"
         }
       }
     },
@@ -376,6 +376,11 @@
     {
       "folder": "mods",
       "fileName": "enchant-compat-1.0.1.jar",
+      "delete": true
+    },
+    {
+      "folder": "mods",
+      "fileName": "enchant-compat-1.0.2.jar",
       "delete": true
     }
   ]
