@@ -82,6 +82,16 @@
       }
     },
     {
+      "url": "https://raw.githubusercontent.com/irunonlyoncoffe/personal-modpack/main/enchant-compat-1.0.2.jar",
+      "folder": "mods",
+      "fileName": "enchant-compat-1.0.2.jar",
+      "metadata": {
+        "hash": {
+          "SHA-256": "171eb85f09d64a88f7c8492f4fc9692ae122645974cf669ffde3b5f9fe93ec6a"
+        }
+      }
+    },
+    {
       "url": "https://raw.githubusercontent.com/irunonlyoncoffe/personal-modpack/main/RedstoneFlux-1.12-2.1.1.1-universal.jar",
       "folder": "mods",
       "fileName": "RedstoneFlux-1.12-2.1.1.1-universal.jar",
@@ -356,6 +366,16 @@
     {
       "folder": "mods",
       "fileName": "hbm-de-nv-compat-1.0.1.jar",
+      "delete": true
+    },
+    {
+      "folder": "mods",
+      "fileName": "enchant-compat-1.0.0.jar",
+      "delete": true
+    },
+    {
+      "folder": "mods",
+      "fileName": "enchant-compat-1.0.1.jar",
       "delete": true
     }
   ]
