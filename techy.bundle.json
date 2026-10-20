@@ -62,12 +62,12 @@
       }
     },
     {
-      "url": "https://raw.githubusercontent.com/irunonlyoncoffe/personal-modpack/main/ntm-ae2-compat-1.1.8.jar",
+      "url": "https://raw.githubusercontent.com/irunonlyoncoffe/personal-modpack/main/ntm-ae2-compat-1.1.9.jar",
       "folder": "mods",
-      "fileName": "ntm-ae2-compat-1.1.8.jar",
+      "fileName": "ntm-ae2-compat-1.1.9.jar",
       "metadata": {
         "hash": {
-          "SHA-256": "2da090085281df8a0f7dfd61a88b0ea0fbf0010e9a59478757350eb7d203fd38"
+          "SHA-256": "bed98cd183d08e97c6cb34bfd54934af1c3bbd5a295b40e7dd93d8dc857b11bf"
         }
       }
     },
@@ -346,6 +346,11 @@
     {
       "folder": "mods",
       "fileName": "ntm-ae2-compat-1.1.7.jar",
+      "delete": true
+    },
+    {
+      "folder": "mods",
+      "fileName": "ntm-ae2-compat-1.1.8.jar",
       "delete": true
     },
     {
