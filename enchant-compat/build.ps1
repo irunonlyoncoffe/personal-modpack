@@ -1,7 +1,7 @@
 $ErrorActionPreference = "Stop"
 $root = Split-Path -Parent $MyInvocation.MyCommand.Path
 $repo = Split-Path -Parent $root
-$version = "1.0.3"
+$version = "1.0.4"
 $outJar = Join-Path $repo "enchant-compat-$version.jar"
 $profileMods = @(
   "C:\Users\carol\AppData\Roaming\PrismLauncher\instances\Techy Modpack 1.0.0\minecraft\mods",
