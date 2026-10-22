@@ -132,12 +132,12 @@
       }
     },
     {
-      "url": "https://raw.githubusercontent.com/irunonlyoncoffe/personal-modpack/refs/heads/main/hbm-classicbar-1.0.1.jar",
+      "url": "https://raw.githubusercontent.com/irunonlyoncoffe/personal-modpack/refs/heads/main/hbm-classicbar-1.0.2.jar",
       "folder": "mods",
-      "fileName": "hbm-classicbar-1.0.1.jar",
+      "fileName": "hbm-classicbar-1.0.2.jar",
       "metadata": {
         "hash": {
-          "SHA-256": "0d12ae36c11eaac2f19364207fc68d432a7c7dc58ce53cb969120ea628433c94"
+          "SHA-256": "a864b870545427c2ebca6d887b8e93a8c14de16f6205ee26bf8312ee4b4c13e8"
         }
       }
     },
@@ -416,6 +416,11 @@
     {
       "folder": "mods",
       "fileName": "hbm-classicbar-1.0.0.jar",
+      "delete": true
+    },
+    {
+      "folder": "mods",
+      "fileName": "hbm-classicbar-1.0.1.jar",
       "delete": true
     }
   ]
