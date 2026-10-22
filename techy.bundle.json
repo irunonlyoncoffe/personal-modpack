@@ -122,7 +122,7 @@
       }
     },
     {
-      "url": "https://raw.githubusercontent.com/irunonlyoncoffe/personal-modpack/main/classicbar-0.6.1.jar",
+      "url": "https://raw.githubusercontent.com/irunonlyoncoffe/personal-modpack/refs/heads/main/classicbar-0.6.1.jar",
       "folder": "mods",
       "fileName": "classicbar-0.6.1.jar",
       "metadata": {
@@ -132,7 +132,7 @@
       }
     },
     {
-      "url": "https://raw.githubusercontent.com/irunonlyoncoffe/personal-modpack/main/hbm-classicbar-1.0.1.jar",
+      "url": "https://raw.githubusercontent.com/irunonlyoncoffe/personal-modpack/refs/heads/main/hbm-classicbar-1.0.1.jar",
       "folder": "mods",
       "fileName": "hbm-classicbar-1.0.1.jar",
       "metadata": {
@@ -142,12 +142,12 @@
       }
     },
     {
-      "url": "https://raw.githubusercontent.com/irunonlyoncoffe/personal-modpack/main/classicbar.cfg",
+      "url": "https://raw.githubusercontent.com/irunonlyoncoffe/personal-modpack/refs/heads/main/classicbar.cfg",
       "folder": "config",
       "fileName": "classicbar.cfg",
       "metadata": {
         "hash": {
-          "SHA-256": "caece54268c09adf78daa38bf99c68a221562a29f53150090979f68ba8ccfe33"
+          "SHA-256": "94d11abfd51ad0ad81dbf4540bee0351bc0c1b297b193a59ca94a3f4a75c6a7d"
         }
       }
     },
