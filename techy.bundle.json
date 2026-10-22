@@ -122,6 +122,36 @@
       }
     },
     {
+      "url": "https://raw.githubusercontent.com/irunonlyoncoffe/personal-modpack/main/classicbar-0.6.1.jar",
+      "folder": "mods",
+      "fileName": "classicbar-0.6.1.jar",
+      "metadata": {
+        "hash": {
+          "SHA-256": "ae065cb2aea50519d07c3e1343e663c763885bb2d59387626169fb8d96ed2dd5"
+        }
+      }
+    },
+    {
+      "url": "https://raw.githubusercontent.com/irunonlyoncoffe/personal-modpack/main/hbm-classicbar-1.0.1.jar",
+      "folder": "mods",
+      "fileName": "hbm-classicbar-1.0.1.jar",
+      "metadata": {
+        "hash": {
+          "SHA-256": "0d12ae36c11eaac2f19364207fc68d432a7c7dc58ce53cb969120ea628433c94"
+        }
+      }
+    },
+    {
+      "url": "https://raw.githubusercontent.com/irunonlyoncoffe/personal-modpack/main/classicbar.cfg",
+      "folder": "config",
+      "fileName": "classicbar.cfg",
+      "metadata": {
+        "hash": {
+          "SHA-256": "caece54268c09adf78daa38bf99c68a221562a29f53150090979f68ba8ccfe33"
+        }
+      }
+    },
+    {
       "url": "https://raw.githubusercontent.com/irunonlyoncoffe/personal-modpack/main/essential/libraries/forge_1.12.2/annotations-23.0.0.jar",
       "folder": "essential/libraries/forge_1.12.2",
       "fileName": "annotations-23.0.0.jar",
@@ -381,6 +411,11 @@
     {
       "folder": "mods",
       "fileName": "enchant-compat-1.0.2.jar",
+      "delete": true
+    },
+    {
+      "folder": "mods",
+      "fileName": "hbm-classicbar-1.0.0.jar",
       "delete": true
     }
   ]
