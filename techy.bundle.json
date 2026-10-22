@@ -122,6 +122,16 @@
       }
     },
     {
+      "url": "https://raw.githubusercontent.com/irunonlyoncoffe/personal-modpack/main/Draconic-Additions-1.12.2-1.17.0.45-universal.jar",
+      "folder": "mods",
+      "fileName": "Draconic-Additions-1.12.2-1.17.0.45-universal.jar",
+      "metadata": {
+        "hash": {
+          "SHA-256": "65048c7bf92f64f9c80f1be0b0910aa432f0b1cd219f2b4c1a4fcc062f1407ea"
+        }
+      }
+    },
+    {
       "url": "https://raw.githubusercontent.com/irunonlyoncoffe/personal-modpack/refs/heads/main/classicbar-0.6.1.jar",
       "folder": "mods",
       "fileName": "classicbar-0.6.1.jar",
